@@ -1,0 +1,40 @@
+{
+  "name": "playground",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "be": "node ./esbuild.mjs",
+    "bp": "parcel build parcel.html --no-source-maps",
+    "brd": "rolldown -c rolldown.config.mjs",
+    "bru": "rollup -c rollup.config.mjs",
+    "brp": "rspack build",
+    "bv": "vite build",
+    "bw": "webpack --mode=production",
+    "build": "npm run be && npm run bp && npm run brd && npm run bru && npm run brp && npm run bv && npm run bw"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "ckeditor5": "^44.0.0",
+    "d3": "^7.9.0",
+    "handsontable": "^14.6.1",
+    "luxon": "^3.5.0",
+    "mobx": "^6.13.5",
+    "tippy.js": "^6.3.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rspack/cli": "^1.1.3",
+    "@types/webpack": "^5.28.5",
+    "esbuild": "^0.24.0",
+    "parcel": "^2.13.2",
+    "rolldown": "^0.15.0-snapshot-993c4a1-20241205003858",
+    "rollup": "^4.27.4",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "terser-webpack-plugin": "^5.3.10",
+    "vite": "^6.0.3",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
