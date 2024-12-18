@@ -29,12 +29,13 @@
     "@types/webpack": "^5.28.5",
     "esbuild": "^0.24.0",
     "parcel": "^2.13.2",
-    "rolldown": "^0.15.0-snapshot-993c4a1-20241205003858",
+    "rolldown": "^0.15.0-commit.f0c42f8",
     "rollup": "^4.27.4",
     "rollup-plugin-esbuild": "^6.1.1",
     "terser-webpack-plugin": "^5.3.10",
     "vite": "^6.0.3",
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "packageManager": "pnpm@8.15.7+sha512.c85cd21b6da10332156b1ca2aa79c0a61ee7ad2eb0453b88ab299289e9e8ca93e6091232b25c07cbf61f6df77128d9c849e5c9ac6e44854dbd211c49f3a67adc"
 }

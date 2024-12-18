@@ -6,7 +6,7 @@ export default defineConfig( {
 		file: 'rolldown.js',
 		dir: 'dist',
 		format: 'es',
-		minify: true,
+		minify: false,
 		comments: 'none'
 	}
 } );

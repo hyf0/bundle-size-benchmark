@@ -9,6 +9,6 @@ build( {
 	target: 'es2022',
 	bundle: true,
 	legalComments: 'none',
-	minify: true,
+	minify: false,
 	logLevel: 'info'
 } );
